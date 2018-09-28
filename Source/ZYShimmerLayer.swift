@@ -277,7 +277,7 @@ class ZYShimmerLayer: CALayer {
     func updateShimmering() {
         self.createMaskIfNeeded()
         
-        guard shimmering && maskLayer != nil else { return }
+        guard shimmering || maskLayer != nil else { return }
         
         self.layoutIfNeeded()
         

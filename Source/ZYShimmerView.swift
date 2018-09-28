@@ -82,7 +82,7 @@ public class ZYShimmerView: UIView {
             return (self.layer as? ZYShimmerLayer)?.shimmeringHighlightLength ?? 0
         }
         set{
-            (self.layer as? ZYShimmerLayer)?.shimmeringHighlightLength = newValue > 0 ? (newValue > 1 ? 1 : newValue) : (newValue <= 0 ? 0.1 : newValue)
+            (self.layer as? ZYShimmerLayer)?.shimmeringHighlightLength = newValue > 0 ? (newValue > 1 ? 1 : newValue) : 0
         }
     }
     
