@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name          = "ZYShimmer"
-  s.version       = "0.1.0"
+  s.version       = "0.1.1"
   s.summary       = "Shimmeringe View."
   s.homepage      = "https://github.com/zhouyudk/ZYShimmering/"
   s.license       = { :type => "MIT", :file => "LICENSE" }
