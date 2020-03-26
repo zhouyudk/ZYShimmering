@@ -122,6 +122,7 @@
 				TargetAttributes = {
 					B58BBAFC215CB21000A9EB8D = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 1130;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -296,7 +297,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = zy.ZYShimmering;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -318,7 +319,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = zy.ZYShimmering;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

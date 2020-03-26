@@ -18,7 +18,7 @@ fileprivate func fade_animation(layer: CALayer,opacity: CGFloat,duration: TimeIn
     anim.fromValue = (layer.presentation() ?? layer).opacity
     anim.toValue = Float(opacity)
     anim.duration = duration
-    anim.fillMode = kCAFillModeBoth
+    anim.fillMode = CAMediaTimingFillMode.both
     anim.isRemovedOnCompletion = false
     return anim
 }
@@ -336,7 +336,7 @@ class ZYShimmerLayer: CALayer {
                 return
             }
             slideAnim = shimmer_slide_animation(duration: TimeInterval(animationDuration), direction: shimmeringDirection)
-            slideAnim?.fillMode = kCAFillModeForwards
+            slideAnim?.fillMode = CAMediaTimingFillMode.forwards
             slideAnim?.isRemovedOnCompletion = false
             if shimmeringBeginTime == TimeInterval(CGFloat.greatestFiniteMagnitude) {
                 shimmeringBeginTime = CACurrentMediaTime() + (fadeOutAnimation?.duration ?? 0)!
