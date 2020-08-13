@@ -46,7 +46,7 @@ public var shimmeringBeginTime: TimeInterval  // 闪烁开始的时间点CoreAni
 	 
 ## Swift版本
 
-	Swift 4.0
+	Swift 5.0
 
 
 ## Requirements
